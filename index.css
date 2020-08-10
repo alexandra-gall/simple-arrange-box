@@ -1,0 +1,54 @@
+#wrapper {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-around;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.item {
+    margin: 3px;
+    border: 3px solid cyan;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    width: 50px;
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: cornsilk;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
